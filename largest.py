@@ -2,15 +2,18 @@ from argparse import ArgumentParser as AP
 
 '''
 Find the largest number in a file
-- Version 1.0
+- Version 0.1.1
 - Author: Mach.33
+
+The input file (-f) must have digits separated by a comma, later versions will have checks that
+will auto-separate data with a comma if not done so already
 '''
 
 class _Main:
     
     def __init__(self):
         self.__AUTHOR__ = "Mach.33"
-        self.__VERSION__ = "0.1"
+        self.__VERSION__ = "0.1.1"
         self.__TITLE__ = "Largest"
         self.__DESC__ = """
         Find the largest number in a file.
